@@ -12,7 +12,7 @@ print(sys.argv[0])
 time.sleep(2)
 print(sys.argv[1:])
 print(os.getcwd())
-git_envs = {key: value for key, value in os.environ.items() if 'GIT' in key}
+git_envs = {key: value for key, value in os.environ.items() if "GIT" in key}
 pprint.pprint(git_envs)
-subprocess.run(['flake8', '.'])
-subprocess.run(['black', '.'])
+subprocess.run(["flake8", "."])
+subprocess.run(["black", "."])
