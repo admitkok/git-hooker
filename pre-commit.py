@@ -4,6 +4,4 @@ import time
 
 
 print("Hello from pre-commit python file")
-time_sleep(10)
-
-
+time.sleep(10)
